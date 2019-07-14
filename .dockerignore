@@ -1,0 +1,14 @@
+# IDE specific files
+.idea/
+
+# Folders to ignore
+.git/
+node_modules/
+
+# Files to ignore
+.env
+.env.example
+.editorconfig
+.gitignore
+Dockerfile
+docker-compose*.yml

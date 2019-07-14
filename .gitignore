@@ -1,0 +1,10 @@
+# IDE specific files
+.idea/
+
+# Folders to ignore
+node_modules/
+dist/
+
+# Files to ignore
+.env
+docker-compose-prod.yml

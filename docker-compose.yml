@@ -1,0 +1,9 @@
+ersion: "3"
+services:
+  accounts:
+    build: .
+    image: ifaisalalam/express-typescript-template
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
